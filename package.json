@@ -1,0 +1,27 @@
+{
+  "name": "curso-branas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdias25/clean-architecture-branas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdias25/clean-architecture-branas/issues"
+  },
+  "homepage": "https://github.com/tdias25/clean-architecture-branas#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.2",
+    "typescript": "^4.3.2"
+  }
+}
